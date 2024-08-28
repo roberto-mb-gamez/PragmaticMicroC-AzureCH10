@@ -1,4 +1,4 @@
-name: Codebreaker backend workflow
+name: Codebreaker clean backend workflow
 
 on:
   workflow_dispatch:
