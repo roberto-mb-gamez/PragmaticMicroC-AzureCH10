@@ -18,3 +18,4 @@ jobs:
     with:
       project-name: 'Codebreaker-Backend'
       solution-path: 'src/Chapter08.sln'
+      dotnet-version: '8.0.1'
