@@ -30,7 +30,7 @@ jobs:
           dotnet-version: ${{ inputs.dotnet-version }}
 
       - name: Install .NET Aspire workload
-        run: dotnet workload install aspire --version 8.0.1
+        run: dotnet workload install aspire --version 8.1.0
 
       - name: Restore Nuget Packages
         run: dotnet restore ${{ inputs.solution-path }}
