@@ -30,7 +30,7 @@ jobs:
           dotnet-version: ${{ inputs.dotnet-version }}
 
       - name: Install .NET Aspire workload
-        run: dotnet workload install aspire --version 8.1.0
+        run: dotnet workload install aspire --version 8.1.0 --skip-sign-check --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json
 
       - name: Restore Nuget Packages
         run: dotnet restore ${{ inputs.solution-path }}
