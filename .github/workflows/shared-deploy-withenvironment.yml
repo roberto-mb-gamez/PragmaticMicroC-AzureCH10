@@ -14,7 +14,7 @@ jobs:
     environment: ${{ inputs.environment-name }}
     env:
       AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
-      AZURE_TENTANT_ID: ${{ secrets.AZURE_TENTANT_ID }}
+      AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
       AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       AZURE_ENV_NAME: ${{ inputs.environment-name }}
       AZURE_LOCATION: ${{ vars.AZURE_LOCATION }}
