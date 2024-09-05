@@ -29,4 +29,3 @@
 # Publish artifact packages
 
 # 1. Create Personal Access Token (PAT) in GitHub
-# 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
