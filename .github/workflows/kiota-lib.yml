@@ -29,5 +29,5 @@ jobs:
         with:
             artifact-name: 'KiotaLib'
             username: 'roberto-mb-gamez'
-            namespace: 'codebreakerapp'
+            namespace: 'roberto-mb-gamez'
         secrets: inherit
