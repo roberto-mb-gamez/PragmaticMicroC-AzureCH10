@@ -19,6 +19,10 @@ on:
         description: The personal or organization name of the GitHub Packages repository.
         required: true
         type: string
+      environment-name:
+        description: 'The environment to deploy to'
+        required: false
+        type: string
 
 jobs:
   publish:
