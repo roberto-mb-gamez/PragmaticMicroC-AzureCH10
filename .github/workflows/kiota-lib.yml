@@ -9,6 +9,7 @@ on:
       - '.github/workflows/shared-create-nuget.yml'
       - '.github/workflows/shared-githubpackages.yml'
       - '.github/workflows/kiota-lib.yml'
+  
     workflow_dispatch:
 
 jobs:
@@ -27,6 +28,6 @@ jobs:
         needs: build-and-test
         with:
             artifact-name: 'KiotaLib'
-            username: 'christiannagel'
+            username: 'roberto-mb-gamez'
             namespace: 'codebreakerapp'
         secrets: inherit
