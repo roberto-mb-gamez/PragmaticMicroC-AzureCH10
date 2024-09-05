@@ -30,4 +30,5 @@ jobs:
             artifact-name: 'KiotaLib'
             username: 'roberto-mb-gamez'
             namespace: 'roberto-mb-gamez'
+            environment-name: codebreaker-08-prod
         secrets: inherit

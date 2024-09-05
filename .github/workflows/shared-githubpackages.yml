@@ -23,6 +23,7 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment: ${{ inputs.environment-name }}
     env:
       ARTIFACTS_URL: https://nuget.pkg.github.com
     
