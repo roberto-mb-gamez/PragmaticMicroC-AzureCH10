@@ -29,6 +29,6 @@ jobs:
         with:
             artifact-name: 'KiotaLib'
             username: 'roberto-mb-gamez'
-            namespace: 'codebreakerapp'
+            namespace: 'PragmaticMicroC-AzureCH10'
             environment-name: codebreaker-08-prod
         secrets: inherit
